@@ -14,7 +14,6 @@ async function bootstrap() {
     .setTitle('Loan')
     .setDescription('The Loan API description')
     .setVersion('1.0')
-    .addTag('Loan')
     .addBearerAuth()
     .build();
 
